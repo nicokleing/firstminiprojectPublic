@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <span>Data</span>Science<span>Center</span>
+            </a>
+        </div>
+        <div class="nav-list">
+            <a href="index.html#home" class="nav-link">Home</a>
+            <a href="index.html#about-us" class="nav-link">About Us</a>
+            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Menu -->
+    <div class="menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+    </div>
+    <!-- End of Menu -->
+
+    <div class="container">
+        <!-- Section 1 -->
+        <section class="section-1" id="home">
+            <div class="banner">
+                <h1 class="banner-heading">
+                    <span class="heading-1">Data Science</span>
+                    <span class="heading-2">Machine Learning</span>
+                    <span class="heading-3">Data Engineering</span>
+                    <span class="heading-4">Software Engineering</span>
+                </h1>
+                <p class="banner-paragraph">Empowering Your Future with Data</p>
+                <button class="banner-btn" onclick="window.location.href='joinourcomunity.html'">Join Our Community</button>
+            </div>
+            <div class="botones" id="botones">
+                <div class="btns">
+                    <button class="btn login-btn">Login</button>
+                    <button class="btn signup-btn">Sign Up</button>
+                    <button id="chatbox-btn" class="btn chat-btn">Chat with AI</button>
+                </div>
+                <div class="form-container">
+                    <div class="signup-form-wrapper modal">
+                        <div class="x-btn signup-x">&times;</div>
+                        <div class="form-header">
+                            <h1>Join Our Community</h1>
+                            <h3>Sign Up</h3>
+                        </div>
+                        <form class="form" id="signup-form">
+                            <div class="input-group">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Username" aria-label="Username">
+                            </div>
+                            <div class="input-group">
+                                <i class="far fa-envelope"></i>
+                                <input type="email" placeholder="Email" aria-label="Email">
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-key"></i>
+                                <input type="password" placeholder="Password" aria-label="Password">
+                            </div>
+                            <button type="submit">Sign Up</button>
+                        </form>
+                    </div>
+                    <div class="login-form-wrapper modal">
+                        <div class="x-btn login-x">&times;</div>
+                        <div class="form-header">
+                            <h1>Join Our Community</h1>
+                            <a href="index.html"></a>
+                            <h3>Login</h3>
+                        </div>
+                        <form class="form" id="login-form">
+                            <div class="input-group">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Username" aria-label="Username">
+                            </div>
+                            <div class="input-group">
+                                <i class="fas fa-key"></i>
+                                <input type="password" placeholder="Password" aria-label="Password">
+                            </div>
+                            <a href="index.html"></a>
+                            <button type="submit">Login</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Inicio de seccion de botones -->
+                <div class="chatbox-modal modal">
+                    <div class="form-header-chatbot">
+                        <h1>Chat with AI Assistant</h1>
+                        <button class="x-btn chatbox-x">&times;</button>
+                    </div>
+                    <div class="chat-container">
+                        <div class="chat-header">
+                            <!-- <img src="images/chatbot.png" class="chat-logo" />-->
+                        </div>
+                        <div id="chat-body" class="chat-body">
+                            <!-- Messages will be dynamically inserted here -->
+                        </div>
+                        <div class="chat-footer">
+                            <button id="reset" class="btn-reset">Reset</button>
+                            <textarea id="prompt" placeholder="Ask me anything about data science"></textarea>
+                            <button id="send-button" class="btn-send">
+                                <img src="images/button_send.png" alt="Send" />
+                            </button>
+                        </div>
+                    </div>
+                </div> <!-- Fin seccion de botones -->
+            </div>
+        </section>
+        <!-- End of Section 1 -->
+
+        <!-- Section 2 -->
+        <section class="section-2" id="about-us">
+            <h1 class="section-heading">Under Construction</h1>
+          <div class="section-heading-line"></div>
+          <div class="video-wrapper">
+              <video class="video" width="640" height="360" controls autoplay muted>
+                  <source src="https://videos.pexels.com/video-files/8482303/8482303-hd_1920_1080_25fps.mp4" type="video/mp4">
+                  Tu navegador no soporta el elemento de video.
+              </video>
+              <div class="controls">
+                  <div class="video-bar-wrapper">
+                      <div class="video-bar"></div>
+                  </div>
+                  <div class="buttons">
+                      <button>
+                          <i class="far fa-play-circle"></i>
+                      </button>
+                  </div>
+              </div>
+          </div>
+            <p class="section-2-paragraph">
+                We are working hard to bring you new and exciting content. Stay tuned for updates and join our community to be the first to know about our latest developments.
+            </p>
+        </section>
+        <!-- End of Section 2 -->
+
+        <!-- Cubo Section -->
+        <section id="unique-cube-section">
+            <div id="unique-cube-container" class="unique-center">
+                <div id="unique-cube-header" class="unique-center">
+                    <h2 id="unique-cube-heading">Technologies: <span id="current-tech">Data Science</span></h2>
+                    <button id="unique-cube-btn">Learn <span id="current-tech-btn">Data Science</span></button>
+                </div>
+                <div id="unique-cube-boxes" class="unique-center">
+                    <div class="unique-cube-box unique-cube-box-1 unique-active">
+                        <div class="unique-top-side"></div>
+                        <div class="unique-bottom-side"></div>
+                        <div class="unique-front-side"></div>
+                        <div class="unique-back-side"></div>
+                        <div class="unique-right-side"></div>
+                        <div class="unique-left-side"></div>
+                    </div>
+                    <div class="unique-cube-box unique-cube-box-2">
+                        <div class="unique-top-side"></div>
+                        <div class="unique-bottom-side"></div>
+                        <div class="unique-front-side"></div>
+                        <div class="unique-back-side"></div>
+                        <div class="unique-right-side"></div>
+                        <div class="unique-left-side"></div>
+                    </div>
+                    <div class="unique-cube-box unique-cube-box-3">
+                        <div class="unique-top-side"></div>
+                        <div class="unique-bottom-side"></div>
+                        <div class="unique-front-side"></div>
+                        <div class="unique-back-side"></div>
+                        <div class="unique-right-side"></div>
+                        <div class="unique-left-side"></div>
+                    </div>
+                    <div class="unique-cube-box unique-cube-box-4">
+                        <div class="unique-top-side"></div>
+                        <div class="unique-bottom-side"></div>
+                        <div class="unique-front-side"></div>
+                        <div class="unique-back-side"></div>
+                        <div class="unique-right-side"></div>
+                        <div class="unique-left-side"></div>
+                    </div>
+                    <div class="unique-cube-box unique-cube-box-5">
+                        <div class="unique-top-side"></div>
+                        <div class="unique-bottom-side"></div>
+                        <div class="unique-front-side"></div>
+                        <div class="unique-back-side"></div>
+                        <div class="unique-right-side"></div>
+                        <div class="unique-left-side"></div>
+                    </div>
+                    <div class="unique-cube-box unique-cube-box-6">
+                        <div class="unique-top-side"></div>
+                        <div class="unique-bottom-side"></div>
+                        <div class="unique-front-side"></div>
+                        <div class="unique-back-side"></div>
+                        <div class="unique-right-side"></div>
+                        <div class="unique-left-side"></div>
+                    </div>
+                    <div class="unique-cube-box unique-cube-box-7">
+                        <div class="unique-top-side"></div>
+                        <div class="unique-bottom-side"></div>
+                        <div class="unique-front-side"></div>
+                        <div class="unique-back-side"></div>
+                        <div class="unique-right-side"></div>
+                        <div class="unique-left-side"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Other Sections -->
+        <!-- ... -->
+        <!-- Section 4 -->
+        <section class="section-4" id="contact">
+            <h1 class="section-heading"></h1>
+            <div class="section-heading-line"></div>
+            <div class="contact-wrapper">
+                <div class="contact-details">
+                    <div class="phone">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Phone</h3>
+                        <p>+123 456 789</p>
+                        <p>+987 654 321</p>
+                    </div>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Main Street #123</p>
+                        <p>Wall Street #123</p>
+                    </div>
+                    <div class="email">
+                        <i class="far fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>support@datasciencecenter.com</p>
+                        <p>info@datasciencecenter.com</p>
+                    </div>
+                </div>
+                <h1>Get in Touch</h1>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </section>
+        <!-- End of Section 4 -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-nav">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about-us">About Us</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+            <p class="copyright">
+                Copyright &copy; Data Science Center All Rights Reserved
+            </p>
+        </footer>
+        <!-- End of Footer -->
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="script.js"></script>
+    <script src="scriptbotones.js"></script>
+    <script src="scriptcube.js"></script>
+</body>
+</html>
